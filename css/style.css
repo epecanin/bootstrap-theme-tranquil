@@ -1,0 +1,48 @@
+/* html{
+  scroll-behavior: smooth;
+} */
+body{
+  background: #333;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.navbar {
+  border-bottom: #eafae6 3px solid;
+  opacity: 0.5;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1960px;
+  z-index: -1;
+  clip-path:inset(0% 0 404px 0);
+  overflow-x: clip;
+}
+/* .card img {
+  max-height: 300px;
+  max-width: 300px;
+} */
+
+#home-section .home-section-inner{
+  padding-top: 150px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+#home-section .card-form {
+  opacity: 0.9;
+}
+#home-section{
+  min-height: 700px;
+}
+
